@@ -16,6 +16,10 @@ public abstract class Duck {
 
     abstract String display(); // this method is abstract since all duck subtypes look different
 
+    /*
+     * By putting fly() in the superclass, we gave flying
+     * ability to ALL duck, including those that shouldn't
+     */
     String fly(){
         return "Normal flying duck";
     }
