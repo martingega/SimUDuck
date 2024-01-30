@@ -6,22 +6,11 @@ package org.simuduck;
  */
 public abstract class Duck {
 
-    String quack(){
-        return "Normal duck quack";
-    }
-
     String swim(){
         return "Normal swimming duck";
     }
 
     abstract String display(); // this method is abstract since all duck subtypes look different
 
-    /*
-     * By putting fly() in the superclass, we gave flying
-     * ability to ALL duck, including those that shouldn't
-     */
-    String fly(){
-        return "Normal flying duck";
-    }
     // other duck-like methods...
 }

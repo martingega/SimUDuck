@@ -1,23 +1,14 @@
 package org.simuduck;
 
-public class RubberDuck extends Duck {
+public class RubberDuck extends Duck implements Quackable{
 
     @Override
     String display() {
         return "I look like a rubberduck";
     }
 
-    /*
-     * Rubber ducks don't quack so the method
-     * is overriden to "Squeak"
-     */
     @Override
-    String quack(){
+    public String quack() {
         return "Squeak";
-    }
-    
-    @Override
-    String fly(){
-        return ""; // override to do nothing
     }
 }
