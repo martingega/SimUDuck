@@ -1,7 +1,7 @@
 package org.simuduck.ducks;
 
-import org.simuduck.FlyNoWay;
-import org.simuduck.Squeak;
+import org.simuduck.flybehavior.FlyNoWay;
+import org.simuduck.quackbehavior.Squeak;
 
 public class RubberDuck extends Duck {
 

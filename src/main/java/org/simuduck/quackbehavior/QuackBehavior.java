@@ -1,4 +1,4 @@
-package org.simuduck;
+package org.simuduck.quackbehavior;
 
 /**
  * QuackBehavior is an interface that just includes

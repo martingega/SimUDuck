@@ -1,7 +1,7 @@
 package org.simuduck.ducks;
 
-import org.simuduck.FlyWithWings;
-import org.simuduck.Quack;
+import org.simuduck.flybehavior.FlyWithWings;
+import org.simuduck.quackbehavior.Quack;
 
 /**
  *  Each duck subtype is responsible for implementing its

@@ -1,4 +1,4 @@
-package org.simuduck;
+package org.simuduck.flybehavior;
 
 /**
  * FlyBehavior is an interface that all flying

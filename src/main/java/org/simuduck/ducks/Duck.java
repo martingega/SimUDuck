@@ -1,7 +1,7 @@
 package org.simuduck.ducks;
 
-import org.simuduck.FlyBehavior;
-import org.simuduck.QuackBehavior;
+import org.simuduck.flybehavior.FlyBehavior;
+import org.simuduck.quackbehavior.QuackBehavior;
 
 /**
  *  All ducks quack and swim, this superclass takes
@@ -12,20 +12,21 @@ public abstract class Duck {
     // The behavior variables are declared as the behavior INTERFACE type
     FlyBehavior flyBehavior; // each Duck has a reference to something that implements the FlyBehavior interface
     QuackBehavior quackBehavior; // each Duck has a reference to something that implements the QuackBehavior interface
+
     public Duck(){
 
     }
 
     // this method replaces quack()
-    String performQuack(){
+    public String performQuack(){
         return quackBehavior.quack(); // the Duck object delegates the quack behavior to the object referenced by quackBehavior
     }
 
     // this method replaces fly()
-    String performFly(){
+    public String performFly(){
         return flyBehavior.fly(); // the Duck object delegates the fly behavior to the object referenced by flyBehavior
     }
-    String swim(){
+    public String swim(){
         return "Normal swimming duck";
     }
 

@@ -1,4 +1,4 @@
-package org.simuduck;
+package org.simuduck.flybehavior;
 
 /**
  * Here's the implementation of flying for

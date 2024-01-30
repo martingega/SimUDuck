@@ -1,7 +1,7 @@
 package org.simuduck.ducks;
 
-import org.simuduck.FlyNoWay;
-import org.simuduck.MuteQuack;
+import org.simuduck.flybehavior.FlyNoWay;
+import org.simuduck.quackbehavior.MuteQuack;
 
 /**
  * We now add a new Wooden Decoy Duck type
