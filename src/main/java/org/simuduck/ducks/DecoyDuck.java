@@ -1,4 +1,4 @@
-package org.simuduck;
+package org.simuduck.ducks;
 
 /**
  * We now add a new Wooden Decoy Duck type

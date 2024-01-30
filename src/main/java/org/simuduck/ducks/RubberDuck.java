@@ -1,6 +1,8 @@
-package org.simuduck;
+package org.simuduck.ducks;
 
-public class RubberDuck extends Duck implements Quackable{
+import org.simuduck.Quackable;
+
+public class RubberDuck extends Duck implements Quackable {
 
     @Override
     String display() {

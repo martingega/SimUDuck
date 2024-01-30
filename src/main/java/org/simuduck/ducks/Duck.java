@@ -1,4 +1,4 @@
-package org.simuduck;
+package org.simuduck.ducks;
 
 /**
  *  All ducks quack and swim, this superclass takes
