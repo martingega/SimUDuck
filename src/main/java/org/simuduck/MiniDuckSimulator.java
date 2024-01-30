@@ -1,7 +1,7 @@
-package org.example;
+package org.simuduck;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
     }
 }
