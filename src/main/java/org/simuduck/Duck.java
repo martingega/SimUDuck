@@ -16,5 +16,8 @@ public abstract class Duck {
 
     abstract String display(); // this method is abstract since all duck subtypes look different
 
+    String fly(){
+        return "Normal flying duck";
+    }
     // other duck-like methods...
 }
