@@ -15,4 +15,9 @@ public class RubberDuck extends Duck {
     String quack(){
         return "Squeak";
     }
+    
+    @Override
+    String fly(){
+        return ""; // override to do nothing
+    }
 }
