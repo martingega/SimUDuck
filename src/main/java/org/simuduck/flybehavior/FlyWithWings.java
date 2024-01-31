@@ -7,6 +7,6 @@ package org.simuduck.flybehavior;
 public class FlyWithWings implements FlyBehavior{
     @Override
     public String fly() {
-        return "Duck flying with wings";
+        return "I am flying with wings";
     }
 }

@@ -7,7 +7,7 @@ package org.simuduck.flybehavior;
 public class FlyNoWay implements FlyBehavior{
     @Override
     public String fly() {
-        return "Cannot fly"; // do nothing
+        return "I cannot fly"; // do nothing
     }
 
 }
