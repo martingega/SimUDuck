@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f510465-9e06-4733-8b5a-c62be5f3847d" name="Changes" comment="REFACTORING: formatting">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6f510465-9e06-4733-8b5a-c62be5f3847d" name="Changes" comment="inserted a new rocket powered flying behavior">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simuduck/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simuduck/MiniDuckSimulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,28 @@
       <option name="project" value="LOCAL" />
       <updated>1706658387981</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="setting duck's behavior dynamically through a setter method">
+      <created>1706709172108</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706709172108</updated>
+    </task>
+    <task id="LOCAL-00014" summary="inserted a new Duck type called ModelDuck that can't fly initially">
+      <created>1706709324534</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706709324535</updated>
+    </task>
+    <task id="LOCAL-00015" summary="inserted a new rocket powered flying behavior">
+      <created>1706709409127</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706709409127</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +200,9 @@
     <MESSAGE value="NEW DESIGN: two interfaces FlyBehavior and QuackBehavior along with the corresponding classes that implement each concrete behavior" />
     <MESSAGE value="REFACTORING: moved classes into packages and inserted code into main class to see the results" />
     <MESSAGE value="REFACTORING: formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTORING: formatting" />
+    <MESSAGE value="setting duck's behavior dynamically through a setter method" />
+    <MESSAGE value="inserted a new Duck type called ModelDuck that can't fly initially" />
+    <MESSAGE value="inserted a new rocket powered flying behavior" />
+    <option name="LAST_COMMIT_MESSAGE" value="inserted a new rocket powered flying behavior" />
   </component>
 </project>
