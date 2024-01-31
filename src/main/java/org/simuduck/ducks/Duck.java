@@ -26,6 +26,15 @@ public abstract class Duck {
     public String performFly(){
         return flyBehavior.fly(); // the Duck object delegates the fly behavior to the object referenced by flyBehavior
     }
+
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
+
     public String swim(){
         return "Normal swimming duck";
     }

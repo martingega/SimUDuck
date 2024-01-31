@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f510465-9e06-4733-8b5a-c62be5f3847d" name="Changes" comment="" />
+    <list default="true" id="6f510465-9e06-4733-8b5a-c62be5f3847d" name="Changes" comment="REFACTORING: formatting">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +18,47 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2bgyyUcI6XKCWwq8PGWTHeMlwJV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.simuduck.MiniDuckSimulator" />
+      <module name="SimUDuck.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.simuduck.ducks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MiniDuckSimulator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,6 +69,91 @@
       <option name="presentableId" value="Default" />
       <updated>1706651272844</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Duck superclass from which all other duck types inherit">
+      <created>1706651889524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706651889524</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Inserted types of ducks that inherit from the Duck superclass.">
+      <created>1706652122925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706652122925</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implemented flying ducks">
+      <created>1706652309323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706652309323</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added new RubberDuck type but now they are flying">
+      <created>1706652825396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706652825396</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added new RubberDuck type but now they are flying (they should not)">
+      <created>1706653274791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706653274791</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bad solution: override the fly method in rubber duck">
+      <created>1706654353507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706654353507</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add new type WoodenDecoy Duck that doesn't fly or quack">
+      <created>1706654571091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706654571091</updated>
+    </task>
+    <task id="LOCAL-00008" summary="REFACTOR: take the fly and quack method out the superclass and make two interfaces Flyable and Quackable">
+      <created>1706655214159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706655214159</updated>
+    </task>
+    <task id="LOCAL-00009" summary="REFACTOR: this solution is a nightmare so we prepare the code for the upcoming changes">
+      <created>1706655447339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706655447340</updated>
+    </task>
+    <task id="LOCAL-00010" summary="NEW DESIGN: two interfaces FlyBehavior and QuackBehavior along with the corresponding classes that implement each concrete behavior">
+      <created>1706657301468</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706657301468</updated>
+    </task>
+    <task id="LOCAL-00011" summary="REFACTORING: moved classes into packages and inserted code into main class to see the results">
+      <created>1706658216866</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706658216866</updated>
+    </task>
+    <task id="LOCAL-00012" summary="REFACTORING: formatting">
+      <created>1706658387981</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706658387981</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -45,5 +166,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Duck superclass from which all other duck types inherit" />
+    <MESSAGE value="Inserted types of ducks that inherit from the Duck superclass." />
+    <MESSAGE value="implemented flying ducks" />
+    <MESSAGE value="Added new RubberDuck type but now they are flying" />
+    <MESSAGE value="Added new RubberDuck type but now they are flying (they should not)" />
+    <MESSAGE value="bad solution: override the fly method in rubber duck" />
+    <MESSAGE value="add new type WoodenDecoy Duck that doesn't fly or quack" />
+    <MESSAGE value="REFACTOR: take the fly and quack method out the superclass and make two interfaces Flyable and Quackable" />
+    <MESSAGE value="REFACTOR: this solution is a nightmare so we prepare the code for the upcoming changes" />
+    <MESSAGE value="NEW DESIGN: two interfaces FlyBehavior and QuackBehavior along with the corresponding classes that implement each concrete behavior" />
+    <MESSAGE value="REFACTORING: moved classes into packages and inserted code into main class to see the results" />
+    <MESSAGE value="REFACTORING: formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTORING: formatting" />
   </component>
 </project>
